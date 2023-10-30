@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog News</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<header id="cabecalho">
+    <div class="navbar navbar-expand-lg">
+        <div class="container">
+            <h1>Blog News</h1>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse justify-content-left" id="menu">
+                <ul class="nav navbar-nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#entretenimento">Entretenimento</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#esportes">Esportes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#politica">Política</a>
+                    </li>
+                </ul>
+            </nav>
+            <button id="btn-assinar" type="button" class="btn btn-light">Assine nosso canal</button>
+        </div>
+    </div>
+</header>
+<body>
+        <div id="slides" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div  class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="#"><img class="d-block w-100" src="images/entreterimento.jpg">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Título da notícia de entretenimento</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat nobis numquam perferendis doloremque dolorum. Maxime, excepturi ad! Facere similique velit veniam, beatae maiores, id, qui commodi accusantium ea tempora quod!</p>
+                        </div>   
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="#"><img class="d-block w-100" src="images/esportes.jpg">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Título da notícia de esportes</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat nobis numquam perferendis doloremque dolorum. Maxime, excepturi ad! Facere similique velit veniam, beatae maiores, id, qui commodi accusantium ea tempora quod!</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="#"><img class="d-block w-100" src="images/politica.jpg">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Título da notícia de política</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat nobis numquam perferendis doloremque dolorum. Maxime, excepturi ad! Facere similique velit veniam, beatae maiores, id, qui commodi accusantium ea tempora quod!</p>
+                        </div>
+                    </a>
+                </div>
+                <button data-bs-target="#slides" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button data-bs-target="#slides" data-bs-slide="next" class="carousel-control-next" type="button">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#slides" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#slides" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#slides" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+        </div>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+        <div class="container">
+            <section id="entretenimento">
+                <h2>Entretenimento</h2>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="card text-bg-dark">
+                            <img src="images/cinema.jpg">
+                            <div class="card-img-overlay">
+                                <h4 class="card-title">Título</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus voluptas, harum odit perferendis perspiciatis voluptates nemo quasi omnis quisquam eaque enim ea necessitatibus dicta assumenda aperiam quae voluptatum, eum porro?</p>
+                                <a class="btn btn-primary" href="#">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card text-bg-dark">
+                            <img src="images/cinema.jpg">
+                            <div class="card-img-overlay">
+                                <h4 class="card-title">Título</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus voluptas, harum odit perferendis perspiciatis voluptates nemo quasi omnis quisquam eaque enim ea necessitatibus dicta assumenda aperiam quae voluptatum, eum porro?</p>
+                                <a class="btn btn-primary" href="#">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card text-bg-dark">
+                            <img src="images/cinema.jpg">
+                            <div class="card-img-overlay">
+                                <h4 class="card-title">Título</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus voluptas, harum odit perferendis perspiciatis voluptates nemo quasi omnis quisquam eaque enim ea necessitatibus dicta assumenda aperiam quae voluptatum, eum porro?</p>
+                                <a class="btn btn-primary" href="#">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card text-bg-dark">
+                            <img src="images/cinema.jpg">
+                            <div class="card-img-overlay">
+                                <h4 class="card-title">Título</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus voluptas, harum odit perferendis perspiciatis voluptates nemo quasi omnis quisquam eaque enim ea necessitatibus dicta assumenda aperiam quae voluptatum, eum porro?</p>
+                                <a class="btn btn-primary" href="#">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card text-bg-dark">
+                            <img src="images/cinema.jpg">
+                            <div class="card-img-overlay">
+                                <h4 class="card-title">Título</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus voluptas, harum odit perferendis perspiciatis voluptates nemo quasi omnis quisquam eaque enim ea necessitatibus dicta assumenda aperiam quae voluptatum, eum porro?</p>
+                                <a class="btn btn-primary" href="#">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card text-bg-dark">
+                            <img src="images/cinema.jpg">
+                            <div class="card-img-overlay">
+                                <h4 class="card-title">Título</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus voluptas, harum odit perferendis perspiciatis voluptates nemo quasi omnis quisquam eaque enim ea necessitatibus dicta assumenda aperiam quae voluptatum, eum porro?</p>
+                                <a class="btn btn-primary" href="#">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="esportes">
+                <h2>Esportes</h2>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="card text-bg-dark">
+                            <img src="images/basquete.jpg">
+                            <div class="card-img-overlay">
+                                <h4 class="card-title">Título</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus voluptas, harum odit perferendis perspiciatis voluptates nemo quasi omnis quisquam eaque enim ea necessitatibus dicta assumenda aperiam quae voluptatum, eum porro?</p>
+                                <a class="btn btn-primary" href="#">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card text-bg-dark">
+                            <img src="images/basquete.jpg">
+                            <div class="card-img-overlay">
+                                <h4 class="card-title">Título</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus voluptas, harum odit perferendis perspiciatis voluptates nemo quasi omnis quisquam eaque enim ea necessitatibus dicta assumenda aperiam quae voluptatum, eum porro?</p>
+                                <a class="btn btn-primary" href="#">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card text-bg-dark">
+                            <img src="images/basquete.jpg">
+                            <div class="card-img-overlay">
+                                <h4 class="card-title">Título</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus voluptas, harum odit perferendis perspiciatis voluptates nemo quasi omnis quisquam eaque enim ea necessitatibus dicta assumenda aperiam quae voluptatum, eum porro?</p>
+                                <a class="btn btn-primary" href="#">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card text-bg-dark">
+                            <img src="images/basquete.jpg">
+                            <div class="card-img-overlay">
+                                <h4 class="card-title">Título</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus voluptas, harum odit perferendis perspiciatis voluptates nemo quasi omnis quisquam eaque enim ea necessitatibus dicta assumenda aperiam quae voluptatum, eum porro?</p>
+                                <a class="btn btn-primary" href="#">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card text-bg-dark">
+                            <img src="images/basquete.jpg">
+                            <div class="card-img-overlay">
+                                <h4 class="card-title">Título</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus voluptas, harum odit perferendis perspiciatis voluptates nemo quasi omnis quisquam eaque enim ea necessitatibus dicta assumenda aperiam quae voluptatum, eum porro?</p>
+                                <a class="btn btn-primary" href="#">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card text-bg-dark">
+                            <img src="images/basquete.jpg">
+                            <div class="card-img-overlay">
+                                <h4 class="card-title">Título</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus voluptas, harum odit perferendis perspiciatis voluptates nemo quasi omnis quisquam eaque enim ea necessitatibus dicta assumenda aperiam quae voluptatum, eum porro?</p>
+                                <a class="btn btn-primary" href="#">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="politica">
+                <h2>Política</h2>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="card text-bg-dark">
+                            <img src="images/manifestacao.jpg">
+                            <div class="card-img-overlay">
+                                <h4 class="card-title">Título</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus voluptas, harum odit perferendis perspiciatis voluptates nemo quasi omnis quisquam eaque enim ea necessitatibus dicta assumenda aperiam quae voluptatum, eum porro?</p>
+                                <a class="btn btn-primary" href="#">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card text-bg-dark">
+                            <img src="images/manifestacao.jpg">
+                            <div class="card-img-overlay">
+                                <h4 class="card-title">Título</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus voluptas, harum odit perferendis perspiciatis voluptates nemo quasi omnis quisquam eaque enim ea necessitatibus dicta assumenda aperiam quae voluptatum, eum porro?</p>
+                                <a class="btn btn-primary" href="#">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card text-bg-dark">
+                            <img src="images/manifestacao.jpg">
+                            <div class="card-img-overlay">
+                                <h4 class="card-title">Título</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus voluptas, harum odit perferendis perspiciatis voluptates nemo quasi omnis quisquam eaque enim ea necessitatibus dicta assumenda aperiam quae voluptatum, eum porro?</p>
+                                <a class="btn btn-primary" href="#">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card text-bg-dark">
+                            <img src="images/manifestacao.jpg">
+                            <div class="card-img-overlay">
+                                <h4 class="card-title">Título</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus voluptas, harum odit perferendis perspiciatis voluptates nemo quasi omnis quisquam eaque enim ea necessitatibus dicta assumenda aperiam quae voluptatum, eum porro?</p>
+                                <a class="btn btn-primary" href="#">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card text-bg-dark">
+                            <img src="images/manifestacao.jpg">
+                            <div class="card-img-overlay">
+                                <h4 class="card-title">Título</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus voluptas, harum odit perferendis perspiciatis voluptates nemo quasi omnis quisquam eaque enim ea necessitatibus dicta assumenda aperiam quae voluptatum, eum porro?</p>
+                                <a class="btn btn-primary" href="#">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card text-bg-dark">
+                            <img src="images/manifestacao.jpg">
+                            <div class="card-img-overlay">
+                                <h4 class="card-title">Título</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus voluptas, harum odit perferendis perspiciatis voluptates nemo quasi omnis quisquam eaque enim ea necessitatibus dicta assumenda aperiam quae voluptatum, eum porro?</p>
+                                <a class="btn btn-primary" href="#">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div class="toast" id="msg-assinante">
+            <header class="toast-header">
+                Inscreva-se para receber novas atualizações!
+            </header>
+            <div class="toast-body">
+                <img src="images/newslatter.png">
+                <label for="email">Digite o seu email:</label>
+                <input type="email" id="email">
+                <div id="btn-toast">
+                    <ul>
+                        <li>
+                            <button data-bs-dismiss="toast" id="btn-fechar" type="button" class="btn btn-danger">Fechar</button>
+                        </li>
+                        <li>
+                            <button type="button" class="btn btn-primary">Assinar</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+
+    <script>
+        const ativadorToast = document.getElementById('btn-assinar')
+        const msg = document.getElementById('msg-assinante')
+
+        if(ativadorToast){
+            ativadorToast.addEventListener('click', function(){
+                const toast = new bootstrap.Toast(msg)
+                toast.show()
+            })
+        }
+    </script>
+</body>
+</html>

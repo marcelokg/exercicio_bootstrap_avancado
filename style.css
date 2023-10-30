@@ -1,0 +1,159 @@
+header{
+    background-color: rgb(189, 73, 65);
+    border-bottom: 3px solid #fff;
+    position: sticky;
+    top: 0;
+    z-index: 9;
+    
+}
+
+h1{
+    padding-right: 20px;
+    font-size: 50px;
+    color: aliceblue;
+}
+
+h2{
+    margin-bottom: 10px;
+    border-top: 1px solid black;
+}
+
+.toast-header{
+    font-size: 15px;
+}
+
+.toast-container{
+    max-width: 100%;
+}
+
+.toast-body img{
+    display: flex;
+    margin-left: 125px;
+    margin-bottom: 10px;
+}
+
+.toast-body{
+    width: 800px;
+    height: 200px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    float: left;
+}
+
+li{
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+.nav-item .nav-link{
+    color:#2c2626;
+    font-size: 20px;
+    border-radius: 2px;
+    border-top: 2px solid transparent;
+}
+
+.navbar-nav .nav-link.active{
+    background-color: rgb(245, 243, 243);
+    color: #2c2626;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 2px;
+    border-top: 2px solid transparent;
+}
+
+.navbar-nav .nav-link.active:hover{
+    border-top: 2px solid #0a0a0a;
+}
+
+.btn-info{
+    background-color: rgb(250, 246, 241);
+    border-color: #fff;
+    width: 50%;
+}
+
+.carousel-item{
+    height: 300px;
+}
+
+.carousel-item img{
+    filter: brightness(0.40);
+}
+
+.card-title{
+    font-size: 20px;
+}
+
+.card-text{
+    font-size: 14px;
+}
+
+.card{
+    margin-bottom: 50px;
+}
+
+.card img{
+    height: 250px;
+    filter: brightness(0.30);
+}
+
+.card-img-overlay a{
+    font-size: 12px;
+}
+
+
+@media screen and (min-width: 641px) and (max-width: 1023px){
+    .carousel{
+        display: none;
+    }
+
+    .col-sm-4{
+        width: 50%;
+    }
+
+    .card-title{
+        font-size: 17px;
+    }
+
+    .card-text{
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 575px) and (max-width: 640px){
+    .carousel{
+        display: none;
+    }
+
+    header{
+        margin-bottom: 20px;
+    }
+
+    .col-sm-4{
+        width: 50%;
+    }
+
+    .card-title{
+        font-size: 16px;
+    }
+
+    .card-text{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 574px){
+    .carousel{
+        display: none;
+    }
+
+    .card-title{
+        font-size: 20px;
+    }
+
+    .card-text{
+        font-size: 16px;
+    }
+}
